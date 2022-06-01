@@ -15,7 +15,10 @@
 }
 
 
-@media screen and (max-width:375px){
+@media screen and (max-width:781px){
+    .imagencliente{
+        width: 100%;
+    }
     .textodeservicio1{
         display: flex;
         flex-wrap: wrap;
@@ -57,8 +60,16 @@
 }
 
 .menu{
-    font-family: "SemiBold"
+    font-family: "SemiBold";
+    color: #470869;
+    background-image: linear-gradient(to left, #ac91bb, #fff);
     
+}
+
+.menu li{
+    display: inline;
+    padding: 4px;
+    transition: 5s;
 }
 
 p{
@@ -153,20 +164,15 @@ h1 {
 
 
 .logo{
-    transform: rotate(-15deg);
+    transform: rotate(-9deg);
     width: 200px;
     height: 100px;
-}
-
-.menu li{
-    display: inline;
-    padding: 4px;
-    transition: 5s;
+    background-image: linear-gradient(to right, #ac91bb, #fff);
 }
 
 .banner img{
     width: 100%;
-}
+} 
 
 .banner{  
     margin-bottom: 20px;
@@ -306,9 +312,12 @@ footer{
     text-align: center;
 }
 
-.imagencliente{
+/* .imagencliente{
     width: 100%;
-}
+    width: 700px;
+    height: 300px; ver despues
+    
+} */
 
 /* clientes fin*/
 /* inicio de proyecto */
@@ -337,6 +346,7 @@ footer{
 .img-proyect1 {
     width: 250px;
     height: 300px;
+    transform: rotate(-9deg);
 }
 
 .img-proyect2 {
