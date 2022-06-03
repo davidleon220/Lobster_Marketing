@@ -27,7 +27,30 @@
                 <a href="https://www.linkedin.com/"><img src="../imagenes/linkedin.png" alt="redes"></a>
             </div>
 
-            <nav>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="menu" class="nav-item" href="/index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="menu" class="nav-item" aria-current="page"
+                                href="../pages/Servicios.html">Servicios</a>
+                            <a class="menu"  class="nav-item" href="../pages/Clientes.html">Clientes</a>
+                            <a class="menu" class="nav-item" href="../pages/Proyectos.html">Proyectos</a>
+                            <a class="menu" class="nav-item" href="../pages/contactanos.html" tabindex="-1"
+                                aria-disabled="true">Contáctanos</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+
+            <!-- este se comento por que se uso BS <nav>
                 <ul class="menu">
                     <li><a href="/index.html">Inicio</a></li>
                     <li><a href="../pages/Servicios.html">Servicios</a></li>
@@ -35,7 +58,7 @@
                     <li><a href="../pages/Proyectos.html">Proyectos</a></li>
                     <li><a href="../pages/contactanos.html">Contáctanos</a></li><br><br>
                 </ul>
-            </nav>
+            </nav> -->
         </div>
     </header>
     <!-- <hr> -->
@@ -84,7 +107,60 @@
 
         </div>
 
-        <div class="imagenyvideo">
+        <div class="row row-cols-1 row-cols-md-2 g-4 row-cols-xxl-2">
+            <div class="col">
+                <div class="card">
+                    <img src="./imagenes/m3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Creatividad</h5>
+                        <p class="card-text">La creatividad o ingenio es la capacidad para pensar fuera de lo
+                            establecido, encontrar nuevas soluciones y generar ideas. La creatividad es intelecto +
+                            imaginación. Mediante el intelecto, una persona es capaz de pensar, analizar la información,
+                            comprender las relaciones causa-efecto y sacar conclusiones.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./imagenes/diseno.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Diseño</h5>
+                        <p class="card-text">Un Concepto de Diseño es la herramienta más útil de cualquier decorador.Un
+                            Concepto de Diseño es la herramienta más útil de cualquier decorador. Permite visualizar, de
+                            manera general, la dirección que va tomando un
+                            proyecto de diseño y, gracias a él, se podrán hacer los ajustes necesarios para definir la
+                            propuesta final sin tener que editar todo el proyecto.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./imagenes/redessociales.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Redes Sociales</h5>
+                        <p class="card-text">El marketing en redes sociales engloba todas aquellas actividades y
+                            acciones que tienen como objetivo promover una marca a través de canales sociales digitales,
+                            como, por ejemplo, Facebook, Twitter, YouTube, Instagram, y muchas plataformas más. Es una
+                            técnica que involucra acciones de posicionamiento, difusión de marca e incluso procesos de
+                            venta.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./imagenes/asesoramiento.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asesoramiento</h5>
+                        <p class="card-text">La función básica de una consultoría de marketing es diseñar una estrategia
+                            de marketing que permita alcanzar los objetivos que tengas definidos para tu negocio. Estas
+                            estrategias estarán centradas en el core business así, como en los productos que ofrecemos y
+                            el mercado en el que operamos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Esto se comento por que se uso BS <div class="imagenyvideo">
 
             <div class="imagenyvideo">
                 <img src="./imagenes/marketing.jpg" width="300" height="150" alt="marketing">
@@ -99,7 +175,7 @@
             </div>
 
             <div class="imagenyvideo">
-                <img src="./imagenes/imagendemarketing" width="300" height="150" alt="marketing">
+                <img src="./imagenes/marketing2.png" width="300" height="150" alt="marketing">
             </div>
 
             <div class="imagenyvideo">
@@ -128,8 +204,7 @@
                 estudiar el comportamiento de los
                 mercados y de las necesidades de los consumidores.
             </div>
-        </section>
-
+        </section> -->
         <!-- Cierre de main -->
 
     </main>
@@ -137,35 +212,35 @@
     <!-- inicio de footer -->
     <Footer>
 
-        <section class="informacion">
-            <div class="info1">
-                <p class="pais">Colombia</p>
-                <p>Calle 139 96-90</p>
-                <p>lobstermarketing@gmail.com</p>
-                <p> Tel: (+57)123456</p>
+        <div class="informacioncontacto">
+            <div >
+            <h4>Colombia</h4>
+                <h6>Calle 139 96-90</h6>
+                <h6>lobstermarketing@gmail.com</h6>
+                <h6> Tel: (+57)123456</h6>
             </div>
 
-            <div class="info2">
-                <p class="pais">Perú </p>
-                <p>Calle San Miguel 120</p>
-                <p>lobstermarketing@gmail.com</p>
-                <p>Tel: (+57)123456</p>
+            <div>
+                <h4>Perú </h4>
+                <h6>Calle San Miguel 120</h6>
+                <h6>lobstermarketing@gmail.com</h6>
+                <h6>Tel: (+57)123456</h6>
             </div>
 
-            <div class="info3">
-                <p class="pais">Ecuador</p>
-                <p>Calle Guayaquil 123</p>
-                <p>lobstermarketing@gmail.com</p>
-                <p>Tel: (+57)123456</p>
+            <div>
+                <h4>Ecuador</h4>
+                <h6>Calle Guayaquil 123</h6>
+                <h6>lobstermarketing@gmail.com</h6>
+                <h6>Tel: (+57)123456</h6>
             </div>
 
-            <div class="info4">
-                <p class="pais">Argentina</p>
-                <p>Calle Buenos Aires</p>
-                <p>lobstermarketing@gmail.com</p>
-                <p>Tel: (+57)123456</p>
+            <div>
+                <h4>Argentina</h4>
+                <h6>Calle Buenos Aires</h6>
+                <h6>lobstermarketing@gmail.com</h6>
+                <h6>Tel: (+57)123456</h6>
             </div>
-        </section>
+        </div>
 
         <section class="mediafooter">
             <div class="logodeabajo">

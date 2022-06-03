@@ -1,7 +1,8 @@
 * {
-    margin: 0px;
-    padding: 0;
+    margin: -0;
+    padding: -0;
     box-sizing: border-box;
+    font-family: "SemiBold";
 }
 
 @font-face {
@@ -16,11 +17,17 @@
 
 
 @media screen and (max-width:375px){
+    
     .textodeservicio1{
         display: flex;
         flex-wrap: wrap;
     }
     
+    .imgservicio{
+        vertical-align: middle;
+        width: 100%;
+        
+    }
 .imagenyvideo{
         flex-wrap: wrap;
 }
@@ -32,6 +39,7 @@
     flex-wrap: wrap;
     
 }
+
 
 .logodeabajo{
 
@@ -57,6 +65,9 @@
 }
 
 .menu{
+    font-size: auto;
+    padding: 5px;
+    /* los valores de arriba se pusieron por utilizar BS */
     font-family: "SemiBold"
     
 }
@@ -70,10 +81,10 @@ h1 {
     font-family: "SemiBold";
 }
 
-.informacion{
+/* .informacion{
     font-family: "SemiBold";
 }
-
+ */
 .pais{
     margin: 10px;
 }
@@ -114,6 +125,9 @@ h1 {
     color: #fff;
 }
 
+h4 h3 { 
+    background-color: #470869;
+}
 .center h1{
     text-decoration: line-through;
 }
@@ -206,6 +220,19 @@ a{
     grid-template-rows: 25% 25% 25% 25%; */
 }
 
+
+.informacioncontacto{
+    font-family: "Regular";
+    margin: px;
+    padding: 10px;
+    text-align: center;    
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: 5s;
+}
+
 footer{
     width: 100%;
 }
@@ -232,8 +259,6 @@ footer{
     color: #fff;
 }
 
-
-
 .imagencliente{
     display: block;
     margin: 0px auto;
@@ -244,17 +269,11 @@ footer{
     text-align: center;
     
 }
-
-.informacion{
+.info1{
+    font-family: "Regular";
     margin: px;
     padding: px;
-    text-align: center;    
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
-
 /* .info1{
     margin: px;
     padding: px;
@@ -275,6 +294,7 @@ footer{
 
 .contac{
     margin: 30px;
+    transition: 5s;
 }
 /* pagina contacto fin */
 
@@ -284,6 +304,8 @@ footer{
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #EEB868;
     border-radius: 10px;
@@ -298,6 +320,10 @@ footer{
     
 }
 
+.imgservicio{
+    width: 100%
+        
+    }
 /* fin de Servico */
 
 /* clientes incio */
@@ -308,6 +334,7 @@ footer{
 
 .imagencliente{
     width: 100%;
+    transition: 5s;
 }
 
 /* clientes fin*/
@@ -355,4 +382,3 @@ footer{
     height: 300px;
 }
 /* fin de proyecto */
-
