@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agencia Lobster Marketing</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -20,7 +22,29 @@
                 <a href="https://www.instagram.com"><img src="../imagenes/instagram.png" alt="redes"></a>
                 <a href="https://www.linkedin.com/"><img src="../imagenes/linkedin.png" alt="redes"></a>
             </div>
-            <nav>
+            
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a  class="menu" class="nav-item" href="../index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a  class="menu" class="nav-item" aria-current="page" href="../pages/Servicios.html">Servicios</a>
+                            <a  class="menu" class="nav-item" href="../pages/Clientes.html">Clientes</a>
+                            <a class="menu" class="nav-item" href="../pages/Proyectos.html">Proyectos</a>
+                            <a class="menu" class="nav-item" href="../pages/contactanos.html" tabindex="-1" aria-disabled="true">Contáctanos</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+            
+            
+            <!-- <nav>
                 <ul class="menu">
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="../pages/servicios.html">Servicios</a></li>
@@ -28,7 +52,7 @@
                     <li><a href="../pages/proyectos.html">Proyectos</a></li>
                     <li><a href="../pages/contactanos.html">Contáctanos</a></li><br><br>
                 </ul>
-            </nav>
+            </nav> -->
 
     </Header>
 
@@ -50,36 +74,35 @@
     <!-- inicio de footer -->
     <Footer>
 
-        <section class="informacion">
-            <div class="info1">
-                <p class="pais">Colombia</p>
-                <p>Calle 139 96-90</p>
-                <p>lobstermarketing@gmail.com</p>
-                <p> Tel: (+57)123456</p>
+        <div class="informacioncontacto">
+            <div >
+            <h4>Colombia</h4>
+                <h6>Calle 139 96-90</h6>
+                <h6>lobstermarketing@gmail.com</h6>
+                <h6> Tel: (+57)123456</h6>
             </div>
 
-            <div class="info2">
-                <p class="pais">Perú </p>
-                <p>Calle San Miguel 120</p>
-                <p>lobstermarketing@gmail.com</p>
-                <p>Tel: (+57)123456</p>
+            <div>
+                <h4>Perú </h4>
+                <h6>Calle San Miguel 120</h6>
+                <h6>lobstermarketing@gmail.com</h6>
+                <h6>Tel: (+57)123456</h6>
             </div>
 
-            <div class="info3">
-                <p class="pais">Ecuador</p>
-                <p>Calle Guayaquil 123</p>
-                <p>lobstermarketing@gmail.com</p>
-                <p>Tel: (+57)123456</p>
+            <div>
+                <h4>Ecuador</h4>
+                <h6>Calle Guayaquil 123</h6>
+                <h6>lobstermarketing@gmail.com</h6>
+                <h6>Tel: (+57)123456</h6>
             </div>
 
-            <div class="info4">
-                <p class="pais">Argentina</p>
-                <p>Calle Buenos Aires</p>
-                <p>lobstermarketing@gmail.com</p>
-                <p>Tel: (+57)123456</p>
+            <div>
+                <h4>Argentina</h4>
+                <h6>Calle Buenos Aires</h6>
+                <h6>lobstermarketing@gmail.com</h6>
+                <h6>Tel: (+57)123456</h6>
             </div>
-        </section>
-
+        </div>
 
         <div class="logodeabajo">
 
@@ -99,6 +122,9 @@
 
     </Footer>
     <!-- Cierre de footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
