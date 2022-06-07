@@ -22,10 +22,11 @@
                 <a href="https://www.instagram.com"><img src="../imagenes/instagram.png" alt="redes"></a>
                 <a href="https://www.linkedin.com/"><img src="../imagenes/linkedin.png" alt="redes"></a>
             </div>
-            
+
+            <!-- se dejo este codigo de boostrap para los link de navegación dentro de la página-->
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a  class="menu" class="nav-item" href="../index.html">Inicio</a>
+                    <a class="menu" class="nav-item" href="../index.html">Inicio</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -33,26 +34,17 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a  class="menu" class="nav-item" aria-current="page" href="../pages/Servicios.html">Servicios</a>
-                            <a  class="menu" class="nav-item" href="../pages/Clientes.html">Clientes</a>
+                            <a class="menu" class="nav-item" aria-current="page"
+                                href="../pages/Servicios.html">Servicios</a>
+                            <a class="menu" class="nav-item" href="../pages/Clientes.html">Clientes</a>
                             <a class="menu" class="nav-item" href="../pages/Proyectos.html">Proyectos</a>
-                            <a class="menu" class="nav-item" href="../pages/contactanos.html" tabindex="-1" aria-disabled="true">Contáctanos</a>
+                            <a class="menu" class="nav-item" href="../pages/contactanos.html" tabindex="-1"
+                                aria-disabled="true">Contáctanos</a>
                         </div>
                     </div>
                 </div>
             </nav>
-            
-            
-            
-            <!-- <nav>
-                <ul class="menu">
-                    <li><a href="/index.html">Inicio</a></li>
-                    <li><a href="../pages/servicios.html">Servicios</a></li>
-                    <li><a href="../pages/clientes.html">Clientes</a></li>
-                    <li><a href="../pages/proyectos.html">Proyectos</a></li>
-                    <li><a href="../pages/contactanos.html">Contáctanos</a></li><br><br>
-                </ul>
-            </nav> -->
+
 
     </Header>
 
@@ -61,13 +53,42 @@
         <div class="banner">
             <img src="../imagenes/bannerlobster.png" alt="banner">
         </div>
-        <h1>Clientes</h1>
+        <h1>Nuestros Clientes</h1>
         <div class="textocliente"><br>
             <h3>
                 <p>Siempre creativos con cada uno de nuestros proyectos.</p>
             </h3><br>
         </div>
-        <img class="imagencliente" src="../imagenes/marcas.jpg" width="700" height="300" alt="marcas">
+        <div class="imgclientes">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="../imagenes/clientes1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../imagenes/clientes2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/clientes3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+
+        <!--  <div>
+            <img class="imagencliente" src="../imagenes/marcas.jpg"  alt="marcas">
+        </div> -->
+
     </main>
     <!-- cierre de main -->
 
@@ -75,32 +96,32 @@
     <Footer>
 
         <div class="informacioncontacto">
-            <div >
-            <h4>Colombia</h4>
+            <div>
+                <h4>Colombia</h4>
                 <h6>Calle 139 96-90</h6>
                 <h6>lobstermarketing@gmail.com</h6>
-                <h6> Tel: (+57)123456</h6>
+                <h6> Tel: (+51)994056646</h6>
             </div>
 
             <div>
                 <h4>Perú </h4>
                 <h6>Calle San Miguel 120</h6>
                 <h6>lobstermarketing@gmail.com</h6>
-                <h6>Tel: (+57)123456</h6>
+                <h6>Tel: (+57)3144815767</h6>
             </div>
 
             <div>
                 <h4>Ecuador</h4>
                 <h6>Calle Guayaquil 123</h6>
                 <h6>lobstermarketing@gmail.com</h6>
-                <h6>Tel: (+57)123456</h6>
+                <h6>Tel: (+51)994056646</h6>
             </div>
 
             <div>
                 <h4>Argentina</h4>
                 <h6>Calle Buenos Aires</h6>
                 <h6>lobstermarketing@gmail.com</h6>
-                <h6>Tel: (+57)123456</h6>
+                <h6>Tel: (+57)3144815767</h6>
             </div>
         </div>
 
@@ -117,7 +138,7 @@
 
 
         <div class="txfinal">
-            <h3>Copyright © 2022. Todos los derechos reservados.</h3>
+            <h6>Copyright © 2022. Todos los derechos reservados.</h6>
         </div>
 
     </Footer>
