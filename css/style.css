@@ -1,10 +1,14 @@
-* {
+*{
     margin: -0;
     padding: -0;
     box-sizing: border-box;
     font-family: "SemiBold";
 }
 
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
 @font-face {
     font-family: "Regular";
     src: url("../fuentes/Regular.ttf");
@@ -14,18 +18,16 @@
     font-family: "SemiBold";
     src: url("../fuentes/SemiBold.ttf");
 }
+
+
+@media screen and (max-width:767px){
     
-@media screen and (max-width:375px){
-    .imagencliente{
-        width: 100%;
-    }
-    
-    .textodeservicio1{
+.textodeservicio1{
         display: flex;
         flex-wrap: wrap;
     }
     
-    .imgservicio{
+.imgservicio{
         vertical-align: middle;
         width: 100%;
         
@@ -146,21 +148,16 @@ h4 h3 {
     color: #fff;
     width: 100%;
     height: auto;
-    /* display: flex; usar luego*/
+    display: flex;
     padding: 20px;
     border: 2px solid #EEB868;
     border-radius: 10px;
 } 
 
-/* .textodeiniciopadre{
-    display: grid;
-    grid-template-rows: 33.3% 33.3% 33.3%;
-    
-}  */
-
 .textodeinicio1 {
     margin-bottom: 5px;
     font-family: "SemiBold";
+    
 }
 
 .textodeinicio2 {
@@ -174,10 +171,14 @@ h4 h3 {
 }
 
 .logo{
-    transform: rotate(-9deg);
     width: 200px;
     height: 100px;
-    background-image: linear-gradient(to right, #ac91bb, #fff);
+    transform: rotate(-5deg); 
+}
+
+.menu li{
+    display: inline;
+    padding: 4px;
 }
 
 .banner img{
@@ -193,8 +194,7 @@ h4 h3 {
     display: flex;
     justify-content: end;
 }
-/* SI NO LO LLEGAS A USAR DESPUES DE LA GRABACIÓN BORRRALO width="30" height="30"
- */
+
 a{
     text-decoration: none;
 }
@@ -276,27 +276,13 @@ footer{
     margin: px;
     padding: px;
 }
-/* .info1{
-    margin: px;
-    padding: px;
+
+.textodeinicio1{
+    text-align: center;
 }
-.info2{
-    margin: px;
-    padding: px;
-}
-.info3{
-    margin: px;
-    padding: px;
-}
-.info4{
-    margin: px;
-    padding: px;
-} */
-/* pagina contacto inico */
 
 .contac{
     margin: 30px;
-    transition: 5s;
 }
 /* pagina contacto fin */
 
@@ -306,12 +292,11 @@ footer{
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #EEB868;
     border-radius: 10px;
     text-align: left;
+    margin: 20px;
 }
 .tttabla{
     text-align: center;
@@ -326,6 +311,12 @@ footer{
     width: 100%
         
     }
+
+.textservi{
+    display: flex;
+    justify-content: center;
+    }
+
 /* fin de Servico */
 
 /* clientes incio */
@@ -334,14 +325,14 @@ footer{
     text-align: center;
 }
 
-/* .imagencliente{
-    width: 100%;
-    width: 700px;
-    height: 300px; ver despues
-    
-} */
+.imgclientes{
+    margin-bottom: 10px;
+    background-color: #470869;
+}
+
 
 /* clientes fin*/
+
 /* inicio de proyecto */
 
 .proyecto{
@@ -349,10 +340,6 @@ footer{
     
 }
 .proyectofotos{
-/*  display: grid;
-    grid-template-columns: auto auto ;
-    grid-template-rows: auto auto;
-     */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -365,24 +352,4 @@ footer{
     
 }
 
-.img-proyect1 {
-    width: 250px;
-    height: 300px;
-}
-
-.img-proyect2 {
-    width: 250px;
-    height: 300px;
-}
-
-.img-proyect3 {
-    width: 250px;
-    height: 300px;
-
-}
-
-.img-proyect4 {
-    width: 250px;
-    height: 300px;
-}
 /* fin de proyecto */
