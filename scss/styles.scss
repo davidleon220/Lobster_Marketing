@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SemiBold";
+}
+
+html body{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+} 
+
+@import "hearderyfooter";
+
+@font-face {
+    font-family: "Regular";
+    src: url("../fuentes/Regular.ttf");
+}
+
+@font-face {
+    font-family: "SemiBold";
+    src: url("../fuentes/SemiBold.ttf");
+}
+
+
+@media screen and (max-width:767px) {
+
+
+    .textodeservicio1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .imgservicio {
+        vertical-align: middle;
+        width: 100%;
+
+    }
+
+    .imagenyvideo {
+        flex-wrap: wrap;
+    }
+
+    .informacion {
+        display: flex;
+        flex-direction: row;
+        font-size: 70%;
+        flex-wrap: wrap;
+
+    }
+
+    .logodeabajo {
+        text-align: start;
+        position: relative;
+        top: 10px;
+    }
+
+    .imagencliente {
+        width: 80%;
+        height: 80%;
+    }
+
+    .textodeiniciopadre {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .textodevideoeimagen {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .df{
+        width: 100%;
+    }
+}
+
+p {
+    font-family: "Regular";
+}
+
+h1 {
+    font-family: "SemiBold";
+}
+
+.pais {
+    margin: 10px;
+}
+
+.txfinal {
+    font-family: "SemiBold";
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+.textomain {
+    color: #fff;
+    font-family: "Regular";
+}
+
+main {
+    background-color: #470869;
+
+    .banner img {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        color: #fff;
+    }
+
+    /*  .menu li {
+        display: inline;
+        padding: 4px;
+    } */
+
+}
+
+h4 h3 {
+    background-color: #470869;
+}
+
+.center h1 {
+    text-decoration: line-through;
+}
+
+.textodeiniciopadre {
+    background-color: #470869;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 20px;
+    display: grid;
+    grid-gap: 20px 20px;
+    border-radius: 10px;
+    display: flex;
+
+    .textodeiniciohijo{
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        border: 2px solid #EEB868;
+        border-radius: 10px;
+        margin: 5px;
+    }
+}
+
+.banner {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.headerredes div {
+    display: flex;
+    justify-content: end;
+}
+
+a {
+    text-decoration: none;
+}
+
+.textodecolor {
+    color: #fff;
+}
+
+.informacioncontacto {
+    font-family: "Regular";
+    margin: px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: 5s;
+}
+
+.textomain {
+    color: #fff;
+}
+
+.imagencliente {
+    display: block;
+    margin: 0px auto;
+
+}
+
+.formu {
+    text-align: center;
+
+}
+
+.info1 {
+    font-family: "Regular";
+    margin: px;
+    padding: px;
+}
+
+.textodeinicio1 {
+    text-align: center;
+}
+
+.contac {
+    margin: 30px;
+}
+
+/* pagina contacto fin */
+
+/* inicio de Servico */
+
+.tablas {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 1px solid #EEB868;
+    border-radius: 10px;
+    text-align: left;
+    margin: 20px;
+}
+
+.tttabla {
+    text-align: center;
+}
+
+.tablas {
+    font-family: "Regular";
+
+}
+
+.imgservicio {
+    width: 100%
+}
+
+.textservi {
+    display: flex;
+    justify-content: center;
+}
+
+/* fin de Servico */
+
+/* clientes incio */
+
+.textocliente {
+    text-align: center;
+}
+
+.imgclientes {
+    margin-bottom: 10px;
+    background-color: #470869;
+}
+
+
+/* clientes fin*/
+
+/* inicio de proyecto */
+
+.proyecto {
+    text-align: center;
+
+}
+
+.proyectofotos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.proyectotex {
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+/* fin de proyecto */
+

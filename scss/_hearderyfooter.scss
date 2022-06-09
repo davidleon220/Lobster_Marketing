@@ -1,0 +1,60 @@
+header{
+    width: 100%;
+    padding: 10px 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu{
+        font-family: "SemiBold";
+        color: #470869;
+        font-size: auto;
+        padding: 5px;
+        font-family: "SemiBold" 
+    }
+
+    &:hover{background-image: linear-gradient(to left, #ac91bb, #fff);}
+
+    .logo{
+        width: 200px;
+        height: 100px;
+        transform: rotate(-5deg); 
+    }
+}
+
+footer{
+
+    .logo{
+        width: 200px;
+        height: 100px;
+        transform: rotate(-5deg); 
+    }
+
+    .logodeabajo{
+        position: relative;
+        top: 65px;
+    }  
+    
+    .footerredes{
+        text-align: end;
+        position: relative;
+        left: -10px;
+    }
+
+    
+.txfinal{
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+}
+
+}
+
+
+
+
+
