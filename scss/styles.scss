@@ -5,10 +5,10 @@
     font-family: "SemiBold";
 }
 
-html body{
+html, body {
     max-width: 100% !important;
-    overflow-x: hidden !important;
-} 
+    overflow-y: hidden !important;
+}
 
 @import "hearderyfooter";
 
@@ -34,7 +34,6 @@ html body{
     .imgservicio {
         vertical-align: middle;
         width: 100%;
-
     }
 
     .imagenyvideo {
@@ -70,9 +69,6 @@ html body{
         flex-wrap: wrap;
     }
 
-    .df{
-        width: 100%;
-    }
 }
 
 p {
@@ -116,10 +112,11 @@ main {
         color: #fff;
     }
 
-    /*  .menu li {
-        display: inline;
-        padding: 4px;
-    } */
+    .banner {
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    
 
 }
 
@@ -153,10 +150,6 @@ h4 h3 {
     }
 }
 
-.banner {
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
 
 .headerredes div {
     display: flex;
