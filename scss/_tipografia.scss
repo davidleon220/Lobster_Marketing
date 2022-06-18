@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Regular";
+    src: url("../fuentes/Regular.ttf");
+}
+
+@font-face {
+    font-family: "SemiBold";
+    src: url("../fuentes/SemiBold.ttf");
+}
+
+p {
+    font-family: "Regular";
+}
+
+h1 {
+    font-family: "SemiBold";
+}
+
+.txfinal {
+    font-family: "SemiBold";
+}
+
+.textomain {
+    color: #fff;
+    font-family: "Regular";
+}

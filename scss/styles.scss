@@ -5,86 +5,35 @@
     font-family: "SemiBold";
 }
 
-html, body {
+/* body{
     max-width: 100% !important;
-    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+} */
+
+@import "header";
+@import "footer";
+@import "variables";
+@import "tipografia";
+@import "mixin";
+
+.colorlogofondo{
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #ac91bb, #fff)}
+
+.logo{
+    @extend .colorlogofondo;
+    @include sizes (200px, 100px);
 }
 
-@import "hearderyfooter";
-
-@font-face {
-    font-family: "Regular";
-    src: url("../fuentes/Regular.ttf");
-}
-
-@font-face {
-    font-family: "SemiBold";
-    src: url("../fuentes/SemiBold.ttf");
-}
-
-
-@media screen and (max-width:767px) {
-
-
-    .textodeservicio1 {
-        display: flex;
-        flex-wrap: wrap;
+@each $color, $valor in $color-redes{
+    .--#{$color}{
+        background-color: $valor;
+        border-radius: 10px;
     }
-
-    .imgservicio {
-        vertical-align: middle;
-        width: 100%;
-    }
-
-    .imagenyvideo {
-        flex-wrap: wrap;
-    }
-
-    .informacion {
-        display: flex;
-        flex-direction: row;
-        font-size: 70%;
-        flex-wrap: wrap;
-
-    }
-
-    .logodeabajo {
-        text-align: start;
-        position: relative;
-        top: 10px;
-    }
-
-    .imagencliente {
-        width: 80%;
-        height: 80%;
-    }
-
-    .textodeiniciopadre {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .textodevideoeimagen {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-}
-
-p {
-    font-family: "Regular";
-}
-
-h1 {
-    font-family: "SemiBold";
 }
 
 .pais {
     margin: 10px;
-}
-
-.txfinal {
-    font-family: "SemiBold";
 }
 
 ul {
@@ -95,29 +44,19 @@ body {
     background-color: #fff;
 }
 
-.textomain {
-    color: #fff;
-    font-family: "Regular";
-}
-
 main {
     background-color: #470869;
 
     .banner img {
         width: 100%;
+        margin-bottom: 20px;
+        border-radius: 10px;
     }
 
     h1 {
         text-align: center;
         color: #fff;
     }
-
-    .banner {
-        margin-bottom: 20px;
-        border-radius: 10px;
-    }
-    
-
 }
 
 h4 h3 {
@@ -129,8 +68,9 @@ h4 h3 {
 }
 
 .textodeiniciopadre {
+    color: map-get( $colordeletra, text );
     background-color: #470869;
-    color: #fff;
+    /* color: #fff; */
     width: 100%;
     height: auto;
     display: flex;
@@ -143,13 +83,12 @@ h4 h3 {
     .textodeiniciohijo{
         display: flex;
         justify-content: center;
-        color: #fff;
+        /* color: #fff; */
         border: 2px solid #EEB868;
         border-radius: 10px;
         margin: 5px;
     }
 }
-
 
 .headerredes div {
     display: flex;
@@ -166,14 +105,12 @@ a {
 
 .informacioncontacto {
     font-family: "Regular";
-    margin: px;
     padding: 10px;
     text-align: center;
     display: flex;
     align-content: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    transition: 5s;
 }
 
 .textomain {
@@ -191,21 +128,15 @@ a {
 
 }
 
-.info1 {
-    font-family: "Regular";
-    margin: px;
-    padding: px;
-}
-
 .textodeinicio1 {
     text-align: center;
 }
 
 .contac {
     margin: 30px;
+    /* text-align: center;
+    display: inline-block; */
 }
-
-/* pagina contacto fin */
 
 /* inicio de Servico */
 
@@ -237,7 +168,13 @@ a {
 .textservi {
     display: flex;
     justify-content: center;
+
 }
+
+.imgser{ 
+    @include sizes (100%, 100%);
+}
+
 
 /* fin de Servico */
 
@@ -262,6 +199,12 @@ a {
 
 }
 
+.imgproyectos{
+    display: flex;
+    justify-content: center;
+    @include sizes (50%, 50%);
+}
+
 .proyectofotos {
     display: flex;
     justify-content: space-around;
@@ -272,8 +215,5 @@ a {
     text-align: left;
     margin: 5px;
     padding: 5px;
-
 }
-
 /* fin de proyecto */
-
