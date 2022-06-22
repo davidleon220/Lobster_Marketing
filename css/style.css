@@ -4,10 +4,6 @@
   box-sizing: border-box;
   font-family: "SemiBold"; }
 
-/* body{
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-} */
 header {
   width: 100%;
   padding: 10px 7px;
@@ -98,7 +94,7 @@ h1 {
 
 .colorlogofondo, .logo {
   border-radius: 10px;
-  background-image: linear-gradient(to right, #ac91bb, #fff); }
+  background-image: linear-gradient(to left, #ac91bb, #fff); }
 
 .logo {
   width: 200px;
@@ -126,7 +122,8 @@ body {
   background-color: #fff; }
 
 main {
-  background-color: #470869; }
+  background-color: #470869;
+  border-radius: 10px; }
   main .banner img {
     width: 100%;
     margin-bottom: 20px;
@@ -156,7 +153,6 @@ h4 h3 {
   .textodeiniciopadre .textodeiniciohijo {
     display: flex;
     justify-content: center;
-    /* color: #fff; */
     border: 2px solid #EEB868;
     border-radius: 10px;
     margin: 5px; }
