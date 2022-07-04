@@ -13,7 +13,7 @@
 
 .colorlogofondo{
     border-radius: 10px;
-    background-image: linear-gradient(to left, #ac91bb, #fff)}
+    }
 
 .logo{
     @extend .colorlogofondo;
@@ -62,11 +62,10 @@ h4 h3 {
 .center h1 {
     text-decoration: line-through;
 }
-
+/* inicio index */
 .textodeiniciopadre {
     color: map-get( $colordeletra, text );
     background-color: #470869;
-    /* color: #fff; */
     width: 100%;
     height: auto;
     display: flex;
@@ -85,6 +84,9 @@ h4 h3 {
     }
 }
 
+.imginicio{
+    margin: 25px;
+}
 .headerredes div {
     display: flex;
     justify-content: end;
@@ -98,16 +100,6 @@ a {
     color: #fff;
 }
 
-.informacioncontacto {
-    font-family: "Regular";
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
 .textomain {
     color: #fff;
 }
@@ -115,12 +107,10 @@ a {
 .imagencliente {
     display: block;
     margin: 0px auto;
-
 }
 
 .formu {
     text-align: center;
-
 }
 
 .textodeinicio1 {
@@ -129,9 +119,8 @@ a {
 
 .contac {
     margin: 30px;
-    /* text-align: center;
-    display: inline-block; */
 }
+/* fin de index */
 
 /* inicio de Servico */
 
@@ -153,7 +142,6 @@ a {
 
 .tablas {
     font-family: "Regular";
-
 }
 
 .imgservicio {
@@ -163,7 +151,6 @@ a {
 .textservi {
     display: flex;
     justify-content: center;
-
 }
 
 .imgser{ 
@@ -200,9 +187,18 @@ a {
     flex-wrap: wrap;
 }
 
-.proyectotex {
-    text-align: left;
+.proyectotex1 {
     margin: 5px;
     padding: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.imgproyecto{
+    margin: 25px;
+}
+
+.textodeimg{
+    color: #470869;
 }
 /* fin de proyecto */

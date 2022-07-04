@@ -1,30 +1,43 @@
-footer{
+footer {
 
-    /* .logo{
-        width: 200px;
-        height: 100px;
-    } */ 
+    .informacioncontacto {
+        color: #f8306F;
+        font-family: "Regular";
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}
 
-    .logodeabajo{
+    .logodeabajo {
         position: relative;
         top: 65px;
-    }  
-    
-    .footerredes{
+    }
+
+    .footerredes {
         text-align: end;
         position: relative;
         left: -10px;
     }
 
-    
-.txfinal{
-    width: 100%;
-    
-    text-align: center;
+    .txfinal {
+        width: 100%;
+        text-align: center;
+        color: #470869;
+    }
+
+    footer {
+        width: 100%;
+    }
 }
 
-footer{
-    width: 100%;
+.footerpais {
+    color: #f8306F;
+
+    .footerinfo{
+        color: #470869;
+    }
 }
 
-}

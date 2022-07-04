@@ -2,22 +2,28 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Esta p[agina web es sobre mi primera agencia de marketing digital que tiene como finalidad mejorar y aumentar las ventas de nuestros futuros clientes.">
+    <meta name="description"
+        content="Esta página web es sobre mi primera agencia de marketing digital que tiene como 
+        finalidad mejorar y aumentar las ventas de nuestros futuros clientes.">
     <meta name="keywords" content="Agencia, Marketing, Marketing Digital, Social Media">
     <title>Clientes | Agencia Lobster Marketing</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" type="image/png" href="../imagenes/logo.png">
+
 </head>
 
 <body>
+
     <Header>
+
         <a href="../index.html"><img class="logo" src="../imagenes/logo.png" alt="logo"></a>
-        <!-- <h1><u>Lobster Marketing</u></h1> -->
         <div class="headerredes">
             <div>
                 <a class="--facebook" href="https://www.facebook.com/"><img src="../imagenes/facebook.png" alt="redes"></a>
@@ -25,7 +31,6 @@
                 <a class="--linkedin" href="https://www.linkedin.com/"><img src="../imagenes/linkedin.png" alt="redes"></a>
             </div>
 
-            <!--  se dejo este codigo de boostrap para los link de navegación dentro de la página -->
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <a class="menu" class="nav-item" href="../index.html">Inicio</a>
@@ -39,37 +44,40 @@
                             <a class="menu" class="nav-item" aria-current="page" href="./servicios.html">Servicios</a>
                             <a class="menu" class="nav-item" href="./clientes.html">Clientes</a>
                             <a class="menu" class="nav-item" href="./proyectos.html">Proyectos</a>
-                            <a class="menu" class="nav-item" href="./contactanos.html" tabindex="-1"
+                            <a class="menu" class="nav-item" href="./contacto.html" tabindex="-1"
                                 aria-disabled="true">Contacto</a>
                         </div>
                     </div>
                 </div>
             </nav>
+        </div>
 
     </Header>
 
-    <!-- inicio de main -->
-    <main class="textomain">
+    <main>
+
+        <!-- inicio de main -->
         <div class="banner">
             <img src="../imagenes/bannerlobster.png" alt="banner">
         </div>
         <h1>Nuestros Clientes</h1>
-        <div class="textocliente"><br>
+        <div class="textocliente textomain">
             <h3>
                 <p>Siempre creativos con cada uno de nuestros proyectos.</p>
-            </h3><br>
+            </h3>
         </div>
+
         <div class="imgclientes">
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="../imagenes/clientes1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="../imagenes/clientes1.png" class="d-block w-100" alt="clientes">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="../imagenes/clientes2.png" class="d-block w-100" alt="...">
+                        <img src="../imagenes/clientes2.png" class="d-block w-100" alt="clientes">
                     </div>
                     <div class="carousel-item">
-                        <img src="../imagenes/clientes3.png" class="d-block w-100" alt="...">
+                        <img src="../imagenes/clientes3.png" class="d-block w-100" alt="clientes">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
@@ -84,49 +92,43 @@
                 </button>
             </div>
         </div>
-
-        <!--  <div>
-            <img class="imagencliente" src="../imagenes/marcas.jpg"  alt="marcas">
-        </div> -->
+        <!-- cierre de main -->
 
     </main>
-    <!-- cierre de main -->
-
-    <!-- inicio de footer -->
+    
     <Footer>
-
+        <!-- inicio de footer -->
         <div class="informacioncontacto">
             <div>
-                <h4>Colombia</h4>
-                <h6>Calle 139 96-90</h6>
-                <h6>lobstermarketing@gmail.com</h6>
-                <h6> Tel: (+51)994056646</h6>
+                <h4 class="footerpais">Colombia</h4>
+                <h6 class="footerinfo">Calle 139 96-90</h6>
+                <h6 class="footerinfo">lobstermarketing@gmail.com</h6>
+                <h6 class="footerinfo"> Tel: (+51) 994056646</h6>
             </div>
 
             <div>
-                <h4>Perú </h4>
-                <h6>Calle San Miguel 120</h6>
-                <h6>lobstermarketing@gmail.com</h6>
-                <h6>Tel: (+57)3144815767</h6>
+                <h4 class="footerpais">Perú </h4>
+                <h6 class="footerinfo">Calle San Miguel 120</h6>
+                <h6 class="footerinfo">lobstermarketing@gmail.com</h6>
+                <h6 class="footerinfo">Tel: (+57) 3144815767</h6>
             </div>
 
             <div>
-                <h4>Ecuador</h4>
-                <h6>Calle Guayaquil 123</h6>
-                <h6>lobstermarketing@gmail.com</h6>
-                <h6>Tel: (+51)994056646</h6>
+                <h4 class="footerpais">Ecuador</h4>
+                <h6 class="footerinfo">Calle Guayaquil 123</h6>
+                <h6 class="footerinfo">lobstermarketing@gmail.com</h6>
+                <h6 class="footerinfo">Tel: (+51) 994056646</h6>
             </div>
 
             <div>
-                <h4>Argentina</h4>
-                <h6>Calle Buenos Aires</h6>
-                <h6>lobstermarketing@gmail.com</h6>
-                <h6>Tel: (+57)3144815767</h6>
+                <h4 class="footerpais">Argentina</h4>
+                <h6 class="footerinfo">Calle Buenos Aires</h6>
+                <h6 class="footerinfo">lobstermarketing@gmail.com</h6>
+                <h6 class="footerinfo">Tel: (+57) 3144815767</h6>
             </div>
         </div>
 
         <div class="logodeabajo">
-
             <a href="../index.html"><img class="logo" src="../imagenes/logo.png" alt="logo"></a>
         </div>
 
@@ -140,12 +142,14 @@
         <div class="txfinal">
             <h6>Copyright © 2022. Todos los derechos reservados.</h6>
         </div>
+        <!-- Cierre de footer -->
 
     </Footer>
-    <!-- Cierre de footer -->
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+
 </body>
 
 </html>

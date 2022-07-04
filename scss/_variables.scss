@@ -1,6 +1,13 @@
 @media screen and (max-width:767px) {
 
+    .headerredes{
+        margin: 5px;
+    }
 
+    .colorlogofondo{
+        margin: 5px;
+    }
+    
     .textodeservicio1 {
         display: flex;
         flex-wrap: wrap;
@@ -11,8 +18,8 @@
         width: 100%;
     }
 
-    .imagenyvideo {
-        flex-wrap: wrap;
+    .imginicio {
+        margin: 5px;
     }
 
     .informacion {
@@ -20,7 +27,6 @@
         flex-direction: row;
         font-size: 70%;
         flex-wrap: wrap;
-
     }
 
     .logodeabajo {
@@ -46,10 +52,18 @@
 
     .imgser{
         width: 100%;}
-
+    
+    .imgproyecto{
+        margin: 5px;
+    }
 }
 
 $colordeletra: (text: white, text2: black); 
 
 $color-redes: (facebook: #fff, instagram: #fff, linkedin:#fff); 
+
+.btnenviar{
+    background:#f8306F;
+    border-radius: 10px;
+}
 
